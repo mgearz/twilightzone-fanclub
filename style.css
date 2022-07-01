@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    background: #dee2e6;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Navigation Bar Styling */
+
+.navbar {
+    background: #495057;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar .nav a {
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #adb5bd;
+}
+
+.navbar .logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar .container {
+    /* Allows the logo and nav links to be displayed on the same line */
+    display: flex;
+    /* Keeps the logo on the left while right justifying the nav links */
+    justify-content: space-between;
+    /* Centers the content in the navbar vertically */
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    /* Allows the nav links to display horizontally */
+    display: flex;
+    /* Removes the bullet points from the nav links list */
+    list-style-type: none;
+}
+
+.navbar ul li {
+    /* Adds space between the navigation links */
+    margin-left: 20px;
+}
+
+/* Header Section Styling */
+
+.header {
+    color: #fff;
+    background: black;
+    min-height: 400px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    max-width: 400px;
+}
+
+.header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header p {
+    color: #dee2e6;
+}
+
+.header button {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    padding: 12px 24px;
+    color: #fff;
+    background: #6c757d;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.header button:hover {
+    background: #495057;
+    color: #adb5bd;
+}
