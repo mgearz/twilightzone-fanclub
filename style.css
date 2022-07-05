@@ -48,10 +48,20 @@ img {
     color: #adb5bd;
 }
 
-.navbar .logo {
+/* .navbar .logo {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
     font-weight: bold;
+} */
+
+.navbar img {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img:hover {
+    opacity: 75%;
 }
 
 .navbar .container {
@@ -80,7 +90,8 @@ img {
 
 .header {
     color: #fff;
-    background: black;
+    /* Photo by Vlad Chețan*/
+    background: black url("pics/StarrySky.jpg") center no-repeat;
     min-height: 400px;
 }
 
