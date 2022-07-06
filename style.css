@@ -26,6 +26,17 @@ img {
     padding: 0 30px;
 }
 
+hr {
+    border: none;
+    height: 3px;
+    background:#6c757d;
+    margin-bottom: 10px;
+}
+
+a {
+   text-decoration: none; 
+}
+
 /* Navigation Bar Styling */
 
 .navbar {
@@ -93,6 +104,7 @@ img {
     /* Photo by Vlad Chețan*/
     background: black url("pics/StarrySky.jpg") center no-repeat;
     min-height: 400px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
 .header .container {
@@ -162,12 +174,13 @@ img {
     border-radius: 10px;
     margin: 10px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
-    padding: 15px 20px;
+    padding: 15px 15px;
     text-align: center;
 }
 
 .box h3 {
     color: #fff;
+    margin: 10px;
 }
 
 /* Quote Section */
@@ -178,6 +191,7 @@ img {
     background-size: cover;
     color: black;
     padding: 40px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.4);
 }
 
 .quote .container {
